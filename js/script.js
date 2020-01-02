@@ -1,6 +1,6 @@
 function main(){
     $(".menu-button-text").click(function() {
-        alert( "tutaj będzie menu" );
+        $(".menu-container").css("display","flex");
       });
  
  $('.content').load('strona-glowna.html .content');
