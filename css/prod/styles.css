@@ -18,12 +18,12 @@ ul li {
   font-weight: 900;
   color: #f37446;
   line-height: 0.8;
-  text-align: center; }
+  text-align: center;
+  padding-right: 30px; }
 
 .menu-container-box {
   position: relative;
-  text-align: center;
-  border: solid; }
+  text-align: center; }
 
 .exit-button {
   width: 50px;
@@ -51,6 +51,21 @@ ul li {
   background-color: #f37446;
   margin-top: -4px; }
 
+li:hover {
+  color: #d74814;
+  cursor: pointer; }
+
+@media all and (max-width: 400px) {
+  .menu-container {
+    top: -100px;
+    height: 140%; }
+
+  .menu-container-box {
+    top: -20px; }
+
+  ul li {
+    font-size: 40px;
+    line-height: 1; } }
 body {
   background-color: #f37446;
   overflow: hidden !important;
