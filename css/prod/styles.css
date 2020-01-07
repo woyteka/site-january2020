@@ -1,4 +1,42 @@
 @charset "UTF-8";
+/* MENU */
+.container-menu-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 2%;
+  width: 50%; }
+
+.menu-box {
+  cursor: pointer;
+  transition: 0.3s; }
+
+.menu-box:hover {
+  background-color: wheat;
+  transition: 0.5s; }
+
+.menu-button {
+  display: flex;
+  justify-content: center;
+  width: 15px;
+  height: 15px;
+  border-radius: 64px;
+  background-color: wheat;
+  transition: 0.5s; }
+
+.menu-button-text {
+  color: wheat;
+  transition: 0.3s; }
+
+.menu-button-text:hover {
+  transition: 0.3s;
+  color: #f37446; }
+
+.menu-button:hover {
+  width: 20px;
+  height: 20px;
+  transition: 0.4s; }
+
 .menu-container {
   display: none;
   z-index: 100;
@@ -11,15 +49,14 @@
   align-content: center;
   flex-direction: column; }
 
-ul li {
+.menu-container-box .but {
   text-decoration: none;
   list-style: none;
   font-size: 80px;
   font-weight: 900;
   color: #f37446;
   line-height: 0.8;
-  text-align: center;
-  padding-right: 30px; }
+  text-align: center; }
 
 .menu-container-box {
   position: relative;
@@ -51,11 +88,11 @@ ul li {
   background-color: #f37446;
   margin-top: -4px; }
 
-li a {
+.menu-container-box a {
   text-decoration: none;
   color: #f37446; }
 
-a:hover {
+.menu-container-box a:hover {
   color: #d74814; }
 
 @media all and (max-width: 400px) {
@@ -66,7 +103,7 @@ a:hover {
   .menu-container-box {
     top: -20px; }
 
-  ul li {
+  .menu-container-box .but {
     font-size: 40px;
     line-height: 1; } }
 body {
@@ -106,39 +143,6 @@ body {
   display: flex;
   justify-content: center;
   height: 50px; }
-
-/* MENU */
-.container-menu-menu {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding-right: 2%;
-  width: 50%; }
-
-.menu-box {
-  cursor: pointer; }
-
-.menu-button {
-  display: flex;
-  justify-content: center;
-  width: 15px;
-  height: 15px;
-  border-radius: 64px;
-  background-color: wheat;
-  transition: 0.2s; }
-
-.menu-button-text {
-  color: wheat;
-  transition: 0.3s; }
-
-.menu-button-text:hover {
-  font-weight: 900;
-  transition: 0.3s; }
-
-.menu-button:hover {
-  width: 20px;
-  height: 20px;
-  transition: 0.4s; }
 
 /* LOGO */
 .container-menu-logo {

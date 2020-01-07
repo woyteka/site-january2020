@@ -1,4 +1,65 @@
+$kolor-tla:#f37446;
+$kolor-font:wheat;
 
+/* MENU */
+
+
+
+.container-menu-menu{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding-right:2%;
+    width:50%;
+    
+  
+    
+    
+}
+
+
+.menu-box{
+    cursor: pointer;
+    transition: 0.3s;
+   
+    
+}
+
+.menu-box:hover{
+    background-color:$kolor-font;
+    transition: 0.5s;
+   
+
+}
+
+
+.menu-button{
+    display: flex;
+    justify-content: center;
+    width:15px;
+    height: 15px;
+    border-radius: 64px;
+    background-color: wheat;
+    transition: 0.5s;
+    
+}
+.menu-button-text{
+    color:$kolor-font;
+    transition: 0.3s;
+}
+
+.menu-button-text:hover{
+    
+    transition: 0.3s;
+    color:$kolor-tla;
+}
+
+.menu-button:hover{
+    width:20px;
+    height: 20px;  
+    transition: 0.4s;
+    
+}
 
 .menu-container{
     display:none;
@@ -16,7 +77,7 @@
 
 
 
-ul li{
+.menu-container-box .but{
     text-decoration: none;
     list-style: none;
     font-size: 80px;
@@ -24,7 +85,7 @@ ul li{
     color:#f37446;
     line-height: 0.8;
     text-align: center;
-    padding-right: 30px;
+    
     
    
 
@@ -69,16 +130,16 @@ ul li{
     background-color: #f37446;
     margin-top:-4px;
 }
-li a{
+.menu-container-box a{
     text-decoration: none;
     color:#f37446;
     
 }
 
 
-a:hover{
+.menu-container-box a:hover{
     color:#d74814;
-   
+    
 }
 
 
@@ -98,8 +159,7 @@ top:-20px;
 
     
 
-
-    ul li{
+.menu-container-box .but{
 
 font-size: 40px;
 line-height: 1;

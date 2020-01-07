@@ -23,7 +23,9 @@ function main(){
 
 
  $('.sg').click(function(){
-   alert("fff");
+  $(".menu-container").css("display","none");
+   window.location.href='index.html';
+   
  });
      
 
