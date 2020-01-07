@@ -51,9 +51,12 @@ ul li {
   background-color: #f37446;
   margin-top: -4px; }
 
-li:hover {
-  color: #d74814;
-  cursor: pointer; }
+li a {
+  text-decoration: none;
+  color: #f37446; }
+
+a:hover {
+  color: #d74814; }
 
 @media all and (max-width: 400px) {
   .menu-container {

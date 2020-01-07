@@ -25,7 +25,8 @@ ul li{
     line-height: 0.8;
     text-align: center;
     padding-right: 30px;
-  
+    
+   
 
 }
 
@@ -68,10 +69,16 @@ ul li{
     background-color: #f37446;
     margin-top:-4px;
 }
+li a{
+    text-decoration: none;
+    color:#f37446;
+    
+}
 
-li:hover{
+
+a:hover{
     color:#d74814;
-    cursor: pointer;
+   
 }
 
 

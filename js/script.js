@@ -19,6 +19,12 @@ function main(){
 
  
  $('.content').load('strona-glowna.html .content');
+
+
+
+ $('.sg').click(function(){
+   alert("fff");
+ });
      
 
 
