@@ -1,0 +1,42 @@
+
+
+
+@keyframes slider-menu{
+    from{
+        top:-150%;
+    }
+    to{
+        top:0;
+    }
+}
+
+.menu-container{
+animation-name: slider-menu;
+
+animation-play-state: paused;
+animation-fill-mode:forwards;
+animation-duration:1s;
+}
+
+.slider-menu-play{
+    animation-play-state:running;
+}
+
+
+@keyframes slider-menu-back{
+    from{
+        top:0;
+    }
+    to{
+        top:-101%;
+    }
+}
+
+
+
+.slider-menu-backwards{
+    animation-name: slider-menu-back;
+    animation-fill-mode:forwards;
+animation-duration:1s;
+animation-play-state:running;
+}
