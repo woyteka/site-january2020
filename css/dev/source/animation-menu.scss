@@ -1,5 +1,5 @@
 
-
+/*  ANIMATION MENU-FORWARD */
 
 @keyframes slider-menu{
     from{
@@ -15,12 +15,16 @@ animation-name: slider-menu;
 
 animation-play-state: paused;
 animation-fill-mode:forwards;
-animation-duration:1s;
+animation-duration:0.3s;
 }
 
 .slider-menu-play{
     animation-play-state:running;
 }
+
+
+
+/*  ANIMATION MENU-BACK */
 
 
 @keyframes slider-menu-back{
@@ -37,6 +41,95 @@ animation-duration:1s;
 .slider-menu-backwards{
     animation-name: slider-menu-back;
     animation-fill-mode:forwards;
-animation-duration:1s;
+animation-duration:0.2s;
 animation-play-state:running;
 }
+
+/*-----------animation menu buttons----------*/
+
+/*-----------strona glowna----------*/
+
+.sg-anim{
+    top:200%;
+    animation-name: strona-glowna-anim;
+    animation-duration: 0.5s;
+    animation-play-state:running;
+    animation-fill-mode:forwards;
+    
+}
+
+@keyframes strona-glowna-anim{
+    from{
+        top:200%;
+    }
+    to{
+        top:0;
+    }
+}
+
+/*-----------info----------*/
+
+.info-anim{
+    top:200%;
+    animation-name: info-anim;
+    animation-duration: 0.5s;
+    animation-delay: 0.1s;
+    animation-play-state:running;
+    animation-fill-mode:forwards;
+    
+}
+
+@keyframes info-anim{
+    from{
+        top:200%;
+    }
+    to{
+        top:0;
+    }
+}
+
+/*-----------portfolio----------*/
+
+.portfolio-anim{
+    top:200%;
+    animation-name: portfolio-anim;
+    animation-duration: 0.5s;
+    animation-delay: 0.2s;
+    animation-play-state:running;
+    animation-fill-mode:forwards;
+    
+}
+
+@keyframes portfolio-anim{
+    from{
+        top:200%;
+    }
+    to{
+        top:0;
+    }
+}
+
+/*-----------kontakt----------*/
+
+.kontakt-anim{
+    top:200%;
+    animation-name: kontakt-anim;
+    animation-duration: 0.5s;
+    animation-delay: 0.3s;
+    animation-play-state:running;
+    animation-fill-mode:forwards;
+    
+}
+
+@keyframes kontakt-anim{
+    from{
+        top:200%;
+    }
+    to{
+        top:0;
+    }
+}
+
+
+
+

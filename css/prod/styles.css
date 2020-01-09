@@ -52,7 +52,9 @@
 
 .menu-container-box {
   position: relative;
-  text-align: center; }
+  text-align: center;
+  overflow: hidden;
+  padding-top: 10px; }
 
 .menu-container-box .but {
   text-decoration: none;
@@ -96,6 +98,18 @@
 .menu-container-box a:hover {
   color: #d74814; }
 
+.sg {
+  position: relative; }
+
+.info {
+  position: relative; }
+
+.portfolio {
+  position: relative; }
+
+.kontakt {
+  position: relative; }
+
 @media all and (max-width: 400px) {
   .menu-container {
     top: -50px;
@@ -107,6 +121,7 @@
   .menu-container-box .but {
     font-size: 40px;
     line-height: 1; } }
+/*  ANIMATION MENU-FORWARD */
 @keyframes slider-menu {
   from {
     top: -150%; }
@@ -116,11 +131,12 @@
   animation-name: slider-menu;
   animation-play-state: paused;
   animation-fill-mode: forwards;
-  animation-duration: 1s; }
+  animation-duration: 0.3s; }
 
 .slider-menu-play {
   animation-play-state: running; }
 
+/*  ANIMATION MENU-BACK */
 @keyframes slider-menu-back {
   from {
     top: 0; }
@@ -129,9 +145,65 @@
 .slider-menu-backwards {
   animation-name: slider-menu-back;
   animation-fill-mode: forwards;
-  animation-duration: 1s;
+  animation-duration: 0.2s;
   animation-play-state: running; }
 
+/*-----------animation menu buttons----------*/
+/*-----------strona glowna----------*/
+.sg-anim {
+  top: 200%;
+  animation-name: strona-glowna-anim;
+  animation-duration: 0.5s;
+  animation-play-state: running;
+  animation-fill-mode: forwards; }
+
+@keyframes strona-glowna-anim {
+  from {
+    top: 200%; }
+  to {
+    top: 0; } }
+/*-----------info----------*/
+.info-anim {
+  top: 200%;
+  animation-name: info-anim;
+  animation-duration: 0.5s;
+  animation-delay: 0.1s;
+  animation-play-state: running;
+  animation-fill-mode: forwards; }
+
+@keyframes info-anim {
+  from {
+    top: 200%; }
+  to {
+    top: 0; } }
+/*-----------portfolio----------*/
+.portfolio-anim {
+  top: 200%;
+  animation-name: portfolio-anim;
+  animation-duration: 0.5s;
+  animation-delay: 0.2s;
+  animation-play-state: running;
+  animation-fill-mode: forwards; }
+
+@keyframes portfolio-anim {
+  from {
+    top: 200%; }
+  to {
+    top: 0; } }
+/*-----------kontakt----------*/
+.kontakt-anim {
+  top: 200%;
+  animation-name: kontakt-anim;
+  animation-duration: 0.5s;
+  animation-delay: 0.3s;
+  animation-play-state: running;
+  animation-fill-mode: forwards; }
+
+@keyframes kontakt-anim {
+  from {
+    top: 200%; }
+  to {
+    top: 0; } }
 body {
   background-color: #f37446;
   overflow: hidden !important;

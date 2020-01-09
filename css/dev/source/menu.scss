@@ -79,7 +79,8 @@ $kolor-font:wheat;
 .menu-container-box{
     position: relative;
     text-align: center;
-    
+    overflow: hidden;
+    padding-top:10px;
 }
 
 
@@ -145,6 +146,26 @@ $kolor-font:wheat;
     color:#d74814;
     
 }
+
+
+
+
+.sg{
+    position: relative;
+}
+
+.info{
+    position: relative;
+}
+
+.portfolio{
+    position: relative;
+}
+
+.kontakt{
+    position: relative;
+}
+
 
 
 
