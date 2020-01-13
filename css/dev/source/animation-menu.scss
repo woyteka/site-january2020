@@ -1,5 +1,5 @@
 
-/*  ANIMATION MENU-FORWARD */
+/*  ANIMATION BOX MENU-FORWARD */
 
 @keyframes slider-menu{
     from{
@@ -24,7 +24,7 @@ animation-duration:0.3s;
 
 
 
-/*  ANIMATION MENU-BACK */
+/*  ANIMATION BOX MENU-BACK */
 
 
 @keyframes slider-menu-back{
@@ -132,4 +132,37 @@ animation-play-state:running;
 
 
 
+/*ANIMATION MENU BUTTON EXIT */
+.exit-one-anim{
+    animation-name: exit-one-button-anim;
+    animation-duration: 1s;
+    animation-delay: 0.1s;
+    animation-play-state:running;
+    animation-fill-mode:forwards;  
+}
 
+@keyframes exit-one-button-anim{
+    from{
+        top:100%;
+    }
+    to{
+        top:0;
+    }
+}
+
+.exit-two-anim{
+    animation-name: exit-two-button-anim;
+    animation-duration: 1s;
+    animation-delay: 0.1s;
+    animation-play-state:running;
+    animation-fill-mode:forwards;  
+}
+
+@keyframes exit-two-button-anim{
+    from{
+        top:100%;
+    }
+    to{
+        top:0;
+    }
+}

@@ -39,7 +39,8 @@ function main(){
         $(".info").addClass("info-anim");
         $(".portfolio").addClass("portfolio-anim");
         $(".kontakt").addClass("kontakt-anim");
-      
+        $(".exit-one").addClass("exit-one-anim");
+        $(".exit-two").addClass("exit-two-anim");
       })
 
 
@@ -52,8 +53,8 @@ function main(){
         $(".kontakt").removeClass("kontakt-anim");
         $(".menu-container").addClass("slider-menu-backwards");
         $(".menu-container").removeClass("slider-menu-play");
-     
-        
+        $(".exit-one").removeClass("exit-one-anim");
+        $(".exit-two").removeClass("exit-two-anim");
         
       })
 
