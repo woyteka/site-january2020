@@ -1,9 +1,13 @@
+$kolor-tla:#f37446;
+$kolor-font:wheat;
 
+/* MENU */
 
 .menu-container{
-    display:none;
+    display:flex;
     z-index: 100;
     position:absolute;
+    top:-120%;
     width:100%;
     height: 100%;
     background-color:wheat;
@@ -15,8 +19,74 @@
 
 
 
+.container-menu-menu{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding-right:2%;
+    width:50%;
+    
+  
+    
+    
+}
 
-ul li{
+
+.menu-box{
+    cursor: pointer;
+    
+   
+    
+}
+
+.menu-box:hover{
+    background-color:$kolor-font;
+    transition: 0.5s;
+   
+
+}
+
+
+.menu-button{
+    display: flex;
+    justify-content: center;
+    width:15px;
+    height: 15px;
+    border-radius: 64px;
+    background-color: wheat;
+    transition: 0.5s;
+    
+}
+.menu-button-text{
+    color:$kolor-font;
+    transition: 0.3s;
+}
+
+.menu-button-text:hover{
+    
+    transition: 0.3s;
+    color:$kolor-tla;
+}
+
+.menu-button:hover{
+    width:20px;
+    height: 20px;  
+    transition: 0.4s;
+    
+}
+
+
+.menu-container-box{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    padding-top:10px;
+}
+
+
+
+
+.menu-container-box .but{
     text-decoration: none;
     list-style: none;
     font-size: 80px;
@@ -24,17 +94,17 @@ ul li{
     color:#f37446;
     line-height: 0.8;
     text-align: center;
-    padding-right: 30px;
+    
     
    
 
 }
 
-.menu-container-box{
-    position: relative;
-    text-align: center;
-    
-}
+
+
+
+/* exit button */
+
 
 .exit-button{
     width:50px;
@@ -60,6 +130,7 @@ ul li{
     height: 5px;
     transform: rotate(45deg);
     background-color: #f37446;
+    position: relative;
 }
 
 .exit-two{
@@ -68,18 +139,39 @@ ul li{
     transform: rotate(-45deg);
     background-color: #f37446;
     margin-top:-4px;
+    position: relative;
 }
-li a{
+.menu-container-box a{
     text-decoration: none;
     color:#f37446;
     
 }
 
 
-a:hover{
+.menu-container-box a:hover{
     color:#d74814;
-   
+    
 }
+
+
+/* MENU buttons position */
+
+.sg{
+    position: relative;
+}
+
+.info{
+    position: relative;
+}
+
+.portfolio{
+    position: relative;
+}
+
+.kontakt{
+    position: relative;
+}
+
 
 
 
@@ -87,8 +179,8 @@ a:hover{
 @media all and (max-width:400px){
   
     .menu-container{
-        top:-100px;
-        height: 140%;
+        top:-50px;
+        height: 100%;
     }  
 
     .menu-container-box{
@@ -98,8 +190,7 @@ top:-20px;
 
     
 
-
-    ul li{
+.menu-container-box .but{
 
 font-size: 40px;
 line-height: 1;

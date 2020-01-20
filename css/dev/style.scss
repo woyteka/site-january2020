@@ -1,5 +1,6 @@
 @import 'source/animation-content.scss';
 @import 'source/menu.scss';
+@import 'source/animation-menu.scss';
 
 $kolor-tla:#f37446;
 $kolor-font:wheat;
@@ -55,60 +56,12 @@ body{
 /* GORNA BELKA */
 
 
+
 .container-menu{
     z-index: 3;
     display: flex;
     justify-content:center;
     height: 50px;
-}
-
-
-/* MENU */
-
-
-
-.container-menu-menu{
-    display: flex;
-    justify-content:flex-end;
-    align-items: center;
-    padding-right:2%;
-    width:50%;
-    
-  
-    
-    
-}
-
-
-.menu-box{
-    cursor: pointer;
-    
-}
-.menu-button{
-    display: flex;
-    justify-content: center;
-    width:15px;
-    height: 15px;
-    border-radius: 64px;
-    background-color: wheat;
-    transition: 0.2s;
-    
-}
-.menu-button-text{
-    color:$kolor-font;
-    transition: 0.3s;
-}
-
-.menu-button-text:hover{
-    font-weight: 900;
-    transition: 0.3s;
-}
-
-.menu-button:hover{
-    width:20px;
-    height: 20px;  
-    transition: 0.4s;
-    
 }
 
 /* LOGO */
