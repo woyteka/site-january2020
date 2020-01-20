@@ -15,15 +15,45 @@ function main(){
  
  $('.content').load('strona-glowna.html .content');
 
+/*  action button menu */
 
+/*  strona-glowna */
 
  $('.sg').click(function(){
-  $(".menu-container").css("display","none");
-   window.location.href='index.html';
+  $(".menu-container").addClass("slider-menu-backwards");
+  $('.content').load('strona-glowna.html .content');
+   
    
  });
-     
 
+
+ /*  info */
+     
+ $('.info').click(function(){
+  $(".menu-container").addClass("slider-menu-backwards");
+  $('.content').load('info.html .content');
+   
+   
+ });
+
+
+  /*  portfolio */
+     
+  $('.portfolio').click(function(){
+    $(".menu-container").addClass("slider-menu-backwards");
+    $('.content').load('portfolio.html .content');
+     
+     
+   });
+
+    /*  kontakt */
+     
+  $('.kontakt').click(function(){
+    $(".menu-container").addClass("slider-menu-backwards");
+    $('.content').load('kontakt.html .content');
+     
+     
+   });
 
 
 
