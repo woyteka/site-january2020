@@ -1,5 +1,11 @@
+
+
+
 function main(){
     
+
+
+
 
       $(".exit-button").mouseover(function() {
         $(".exit-one").css("background-color","#d74814");
@@ -89,4 +95,11 @@ function main(){
       })
 
         main();
+
+
     };
+
+
+    
+
+
