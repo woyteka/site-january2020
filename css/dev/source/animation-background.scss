@@ -1,0 +1,17 @@
+
+
+@keyframes background-anim{
+    from{
+        top:100%;
+    }
+    to{
+        top:0;
+    }
+}
+
+.container-tlo{
+animation-name: background-anim;
+animation-play-state: running;
+animation-fill-mode:forwards;
+animation-duration:1s;
+}
